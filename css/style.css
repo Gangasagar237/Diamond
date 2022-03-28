@@ -1,0 +1,926 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  /* navigation bar */
+  .navbar-light .navbar-nav .active {
+    border-bottom: 2px solid #37587b;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: #37587b;
+  }
+  /* end of navigation bar */
+  
+  /*mega menu*/
+  .dropdown-hover {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown-hover-content {
+    display: none;
+    position: absolute;
+    margin-top: 2px;
+    background-color: #fff;
+    left: 0;
+    right: 0;
+    padding: 27px 14px 0;
+    z-index: 4;
+  }
+  .bg-light-pink-2{
+    background-color: #ffeeec;
+  }
+  .bg-light-pink-3{
+    background-color: #fee4c9!important
+  }
+  .radius-0{
+    border: 2px solid #000;
+  }
+  
+  .main{
+    float: left;
+  }
+  
+  .text-dark{
+    margin: -10px;
+    /* margin-bottom: -12px; */
+  }
+  
+  .dropdown-hover-content .row {
+    width: 100%;
+  }
+  
+  .dropdown-hover-content a.dropdown-item {
+    font-size: 14px;
+    white-space: normal;
+  }
+  
+  .dropdown-hover:hover .dropdown-hover-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  #link-1.dropdown-hover:hover {
+    border-bottom: 2px solid #37587b;
+  }
+  #link-2.dropdown-hover:hover {
+    border-bottom: 2px solid #37587b;
+  }
+  #link-3.dropdown-hover:hover {
+    border-bottom: 2px solid #37587b;
+  }
+  #link-4.dropdown-hover:hover {
+    border-bottom: 2px solid #37587b;
+  }
+  #link-5.dropdown-hover:hover {
+    border-bottom: 2px solid #37587b;
+  }
+  #link-6.dropdown-hover:hover {
+    border-bottom: 2px solid #37587b;
+  }
+  #link-7.dropdown-hover:hover {
+    border-bottom: 2px solid #37587b;
+  }
+  .item a:hover{
+    border-bottom: 2px solid #37587b;
+  }
+  
+  
+  /*end of mega menu*/
+
+
+  
+  
+  @media (max-width: 575.98px) {
+    .megamenu {
+      padding: 0;
+    }
+  }
+  
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .megamenu {
+      padding: 0;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .megamenu {
+      padding: 0;
+    }
+  }
+  
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+  }
+  
+  @media (min-width: 1200px) {
+  }
+  
+
+.topbg{
+    background-color: #e46445;
+    font-size: 15px;
+} 
+.topbg1{
+  background-color: black;
+  font-size: 12px;
+}
+
+
+.highstreet{
+  margin-right: 280px;
+}
+
+
+.cta-link li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+.navbar{
+  text-decoration: none;
+  list-style-type: none;
+}
+.nav-menu{
+  margin-top: -20px;
+}
+.order{
+  margin-top: 5px;
+  padding-left: 50px;
+  font-size: 12px;
+}
+
+.order1{
+  margin-top: 8px;
+  margin-right: 120px;
+  font-size: 12px;
+}
+
+.s1{
+  border: 1px solid #000;
+  padding: 0px 12px;
+  background-color:brown;
+  margin-top: 2px;
+  
+}
+
+.fa-search{
+  cursor: pointer;
+  background-color: black;
+  margin-left: 20px; 
+   margin-top: 4px;
+}
+
+.fa-star{
+  
+  padding-left:5px;
+}
+
+.heading h6{
+  background-color:#6c757d;
+}
+.row .banner{
+  background-color: chocolate;
+}
+
+/*--------------------other-img---------------------*/
+.other-img{
+  float: left;
+  /* margin-left: -15px; */
+  cursor: pointer;
+}
+.other-img-1{
+  float: right;
+  /* margin-right: -0px; */
+  cursor: pointer;
+}
+.highlight-btn{
+  border: 2px solid #000;
+}
+
+.big{
+  font-size: 45px;
+  font-weight: lighter;
+}
+.hit1{
+  border-radius: 2px;
+  border-color: black;
+  background-color: black;
+  cursor: pointer;
+  margin: 1px 27px;
+  color: white;
+  font-size: 26px;
+}
+.hit1:hover{
+  border-radius: 2px;
+  background-color: #dfc09f;
+  color: #000;
+}
+.hit2{
+  border-radius: 2px;
+  border-color: black;
+  background-color: #dfc09f;
+  font-size: 26px;
+  color: #000;
+}
+.hit2:hover{
+  border-radius: 2px;
+  background-color: black;
+  color: white;
+}
+.customer_support{
+  text-align: center;
+  margin: 21px 0px;
+}
+.hello{
+  padding-left: 134px;
+}
+
+.fa-map-marker{
+  padding-left: 136px;
+}
+
+.hello1
+{
+  padding-left: 90px;
+}
+
+.fa-comments-o{
+  padding-left: 90px;
+}
+
+.hello2{
+  padding-right: 90px;
+}
+
+.fa-volume-control-phone{
+  padding-right: 90px;
+}
+
+.hello3{
+  padding-right: 230px;
+}
+
+.fa-envelope-o{
+  padding-right: 230px;
+} */
+
+/*---------------- link-1-sprite image----------------------*/
+.nav-item{
+  margin-top: -25px;
+}
+.nav-menu a{
+  display: block;
+  position: relative;
+  color: #000;
+  transition: .3s;
+}
+
+.style-sprite-icons{
+  background-image: url(../img/style_sprites.png);
+  background-size: auto!important;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 150px;
+  height: 105px;
+  text-decoration: none;
+  list-style-type: none;
+}
+.bg_classic_solitaire{background-position: -900px -525px;}
+.bg_classic_solitaire:hover, .selectedstyle .bg_classic_solitaire{background-position: -50px -890px;}
+
+.bg_halo_rings{background-position: -393px -650px;}
+.bg_halo_rings:hover, .selectedstyle .bg_halo_rings{background-position: -53px -770px;}
+
+.bg_side_stone_rings{background-position: -903px -286px;}
+.bg_side_stone_rings:hover, .selectedstyle .bg_side_stone_rings{background-position: -903px -406px;}
+
+.bg_trilogy_ring{background-position: -222px -176px;}
+.bg_trilogy_ring:hover, .selectedstyle .bg_trilogy_ring{background-position: -1082px -281px;}
+
+.bg_illusion_set_rings{background-position: -630px -1397px;}
+.bg_illusion_set_rings:hover, .selectedstyle .bg_illusion_set_rings{background-position:-783px -1397px;}
+
+.bg_cluster_engagement_rings{background-position: -328px -1399px;;}
+.bg_cluster_engagement_rings:hover, .selectedstyle .bg_cluster_engagement_rings{background-position: -474px -1399px;}
+
+.bg_sapphire_engagement_rings{background-position: -367px -1168px;}
+.bg_sapphire_engagement_rings:hover, .selectedstyle .bg_sapphire_engagement_rings{background-position: -537px -1168px;}
+
+.bg_black_diamond_rings{background-position: -27px -1172px;}
+.bg_black_diamond_rings:hover, .selectedstyle .bg_black_diamond_rings{background-position: -197px -1172px;}
+/*--------------end link-1------------------------*/
+
+/*-------------------link-2- start sprite image---------------------------------------------*/
+
+.bg_half_eternity{background-position: -57px -662px;}
+.bg_half_eternity:hover,.selectedstyle .bg_half_eternity{background-position: -227px -662px;}
+
+.bg_full_eternity{background-position: -735px -419px;}
+.bg_full_eternity:hover,.selectedstyle .bg_full_eternity{background-position: -735px -539px;}
+
+.bg_womens_plain{background-position: -335px -1292px;}
+.bg_womens_plain:hover, .selectedstyle .bg_womens_plain{background-position: -495px -1292px;}
+
+.bg_Womens_Shapped{background-position: -655px -1294px;}
+.bg_Womens_Shapped:hover, .selectedstyle .bg_Womens_Shapped{background-position: -815px -1294px;}
+
+.bg_Womens_diamond{background-position: -978px -1297px;}
+.bg_Womens_diamond:hover, .selectedstyle .bg_Womens_diamond{background-position: -1138px -1297px;}
+
+.bg_Mens_Plain{background-position: -9px -1300px;}
+.bg_Mens_Plain:hover, .selectedstyle .bg_Mens_Plain{background-position: -169px -1300px;}
+
+.bg_mens_diamond{background-position: -1444px -23px;}
+.bg_mens_diamond:hover, .selectedstyle .bg_mens_diamond{background-position: -1444px -133px;}
+
+
+/*-------------------link-2- end sprite image---------------------------------------------*/
+
+/*-------------------link-3- start sprite image---------------------------------------------*/
+
+.bg_five_stone{background-position: -395px -179px;}
+.bg_five_stone:hover, .selectedstyle .bg_five_stone{background-position: -55px -304px;}
+
+.bg_seven_stone{background-position: -226px -300px}
+.bg_seven_stone:hover, .selectedstyle .bg_seven_stone{background-position: -396px -300px; }
+
+.bg_half_enternity{background-position: -56px -667px;}
+.bg_half_enternity:hover, .selectedstyle .bg_half_enternity{background-position: -226px -667px;}
+
+.bg_full_enternity{background-position: -731px -422px;}
+.bg_full_enternity:hover, .selectedstyle .bg_full_enternity{background-position: -731px -542px}
+
+.bg_enternity_rings{background-position: -1085px -883px;}
+.bg_enternity_rings:hover, .selectedstyle .bg_enternity_rings{background-position: -45px -1028px;}
+.bg_trilogy_rings{background-position: -1087px -167px;}
+.bg_trilogy_rings:hover, .selectedstyle .bg_trilogy_rings{background-position: -1087px -287px;}
+.bg_mens_rings{background-position: -1751px -218px;}
+.bg_mens_rings:hover, .selectedstyle .bg_mens_rings{background-position: -1751px -323px;}
+
+.bg_gemstone_rings{background-position: -11px -1554px;}
+.bg_gemstone_rings:hover, .selectedstyle .bg_gemstone_rings{background-position:  -161px -1553px;}
+
+/*-------------------link-3- end sprite image---------------------------------------------*/
+
+
+/*-------------------link-4- start sprite image---------------------------------------------*/
+
+.bg_stud_earrings{background-position: -904px -652px;}
+.bg_stud_earrings:hover,.selectedstyle.bg_stud_earrings{background-position: -904px -772px;}
+.bg_halo_earrings{background-position: -564px -658px;}
+.bg_halo_earrings:hover,.selectedstyle.bg_halo_earrings{background-position: -734px -658px;}
+.bg_drop_earrings{background-position: -737px -177px;}
+.bg_drop_earrings:hover,.selectedstyle.bg_drop_earrings{background-position: -737px -297px;}
+.bg_cluster_earrings{background-position:-395px -417px;}
+.bg_cluster_earrings:hover,.selectedstyle.bg_cluster_earrings{background-position: -565px -52px;}
+.bg_hoop_earrings{background-position: -573px -778px;}
+.bg_hoop_earrings:hover,.selectedstyle .bg_hoop_earrings{background-position:-743px -778px;}
+.bg_designer_earrings{background-position: -227px -538px;}
+.bg_designer_earrings:hover,.selectedstyle.bg_designer_earrings{background-position: -397px -538px;;}
+.bg_mens_earrings{background-position: -1255px -278px;;}
+.bg_mens_earrings:hover,.selectedstyle.bg_mens_earrings{background-position: -1255px -398px;}
+.bg_black_diamond_earrings{background-position: -1083px -643px;}
+.bg_black_diamond_earrings:hover,.selectedstyle.bg_black_diamond_earrings{background-position: -1083px -763px;}
+/*-------------------link-4- end sprite image---------------------------------------------*/
+
+/*-------------------link-5- start sprite image---------------------------------------------*/
+ul.styleboxes.pendants-styleboxes.mb-0 {
+  display: flex;
+  position: relative;
+  list-style: none;
+}
+ul.styleboxes.pendants-styleboxes.mb-0 li a:hover{color: red;}
+.styleboxes li {
+  width: 50%;
+  float: left;
+  margin: 0;
+  padding: 1.5px;
+  text-align: center;
+  border-left: 1px solid #dee2e6;
+  /* border-right: 1px dotted #ccc; */
+  border-bottom: 1px dotted #ccc;
+}
+.bg_initial_pendants{background-position: -891px -892px;}
+.bg_solitaire_pendants{background-position: -395px -890px;}
+.bg_solitaire_pendants:hover,.selectedstyle.bg_solitaire_pendants{background-position: -225px -890px;}
+.bg_halo_pendants{background-position: -226px -774px;}
+.bg_halo_pendants:hover,.selectedstyle.bg_halo_pendants{background-position:-396px -774px;}
+.bg_cross_pendants{background-position: -565px -412px;}
+.bg_cross_pendants:hover,.selectedstyle.bg_cross_pendants{background-position: -55px -537px;}
+.bg_circle_pendants{background-position: -69px -415px;}
+.bg_circle_pendants:hover,.selectedstyle.bg_circle_pendants{background-position: -239px -415px;}
+.bg_cluster_pendants{background-position: -570px -171px;}
+.bg_cluster_pendants:hover,.selectedstyle.bg_cluster_pendants{background-position: -570px -291px;}
+.bg_heart_pendants{background-position: -1266px -27px;}
+.bg_heart_pendants:hover,.selectedstyle.bg_heart_pendants{background-position: -1266px -147px;}
+.bg_designer_pendants{background-position: -568px -535px;}
+.bg_designer_pendants:hover,.selectedstyle.bg_designer_pendants{background-position: -738px -50px;}
+.bg_gemstone_pendants{background-position: -218px -1024px;}
+.bg_gemstone_pendants:hover,.selectedstyle.bg_gemstone_pendants{background-position: -388px -1024px;}
+.bg_personalise_pendants{background-position: -569px -1023px;}
+.bg_personalise_pendants:hover,.selectedstyle.bg_personalise_pendants{background-position: -1099px -38px;}
+
+/*-------------------link-5- end sprite image---------------------------------------------*/
+
+/*-------------------link-6 start----------------------------------*/
+
+.bg_tennis_line_bracelet{background-position: -1600px -636px;}
+.bg_tennis_line_bracelet:hover,.selectedstyle.bg_tennis_line_bracelet{background-position:-1600px -741px;}
+.bg_delicate_bracelet{background-position: -1600px -440px;}
+.bg_delicate_bracelet:hover,.selectedstyle.bg_delicate_bracelet{background-position: -1600px -545px;}
+.bg_cluster_bracelet{background-position: -1600px -217px;}
+.bg_cluster_bracelet:hover,.selectedstyle.bg_cluster_bracelet{background-position:-1600px -322px;}
+.bg_Bangles_bracelet{background-position:-1601px -6px;}
+.bg_Bangles_bracelet:hover,.selectedstyle.bg_Bangles_bracelet{background-position: -1601px -111px;}
+
+/*--------------------link-6 end------------------------------------*/
+
+.order_place{background-color: red;}
+/* -----------shape------------ */
+.sprite{margin: 7px;}
+/*-------for border----------------*/
+.border-solid{border-left: 1px solid #dee2e6;}
+.border-solid-1{border-left: 1px solid #dee2e6; border-bottom: 1px solid #dee2e6;}
+.border-solid-2{border-bottom: 1px solid #dee2e6;}
+/*------ end--border----------------*/
+.dropdown-hover ul.shapes li a:before, .nav-menu .mega-menu .mega-menu-block ul.shapes li a:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 30px;
+  height: 25px;
+  display: inline-block;
+  background-image: url(../img/abelini_sprites.png);
+  background-position: 0 0;
+  background-size: auto!important;
+  background-repeat: no-repeat;
+}
+.filter_round a:before {background-position: -150px -135px!important}
+.filter_princess a:before{background-position: -78px -240px!important}
+.filter_emerald a:before{background-position: -79px -205px!important}
+.filter_asscher a:before{background-position: -43px -240px!important}
+.filter_oval a:before{background-position: -116px -205px!important}
+.filter_pear a:before{background-position: -8px -240px!important}
+.filter_heart a:before{background-position: -151px -170px!important}
+.filter_marquise a:before{background-position: -116px -170px!important}
+.filter_cushion a:before{background-position: -44px -205px!important}
+
+/*------------- end shape------ */
+
+  /*-----------end sprite image----------------------*/
+  
+
+/* --start metal------*/
+.metal1{font-size: 17px;font-weight: inherit;}
+.price{font-size: 17px;font-weight: inherit;}
+#white_metal {
+  /* margin-left: 30px; */
+  margin: 2px 15px;
+}
+#white_metal:hover{text-decoration: none;color: #000;}
+ #yellow_metal{margin: 2px 16px;}
+#yellow_metal:hover{
+  text-decoration: none;
+  color: #000;
+}
+ .rose_gold{
+ margin-left: 33px;
+} 
+.rose_gold-1{
+  display: inline-block;
+  float: right;
+  margin-top: -30px;
+  margin-right: 28px;
+}
+#rose_gold:hover{
+  text-decoration: none;
+  color: #000;
+} 
+.platinum-metal{
+  width: 30px;
+  height: 30px;
+  border: 1px solid transparent;
+  text-decoration: none;
+  color: #000;
+  background-color: #9e9e9e;
+  box-sizing: border-box;
+  /* margin: 2px 24px; */
+  display: inline-block;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 700;
+  text-indent: 0;
+  margin-left: 57px;
+}
+.platinum-metal:hover{
+  text-decoration: none;
+  color: #000;
+}
+.silver-metal{
+  width: 30px;
+  height: 30px;
+  border: 1px solid transparent;
+  text-decoration: none;
+  color: #000;
+  background-color: #f4f4f4;
+  box-sizing: border-box;
+  /* margin: 2px 36px; */
+  display: inline-block;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 700;
+  text-indent: 0;
+  margin-left: 57px;
+}
+.silver-metal:hover{
+  text-decoration: none;
+  list-style: none;
+  color: #000;
+}
+/* ----metal end------- */
+/* -----start shape---------- */
+ul li a{
+  text-decoration: none;
+  color: #000;
+}
+ul li a:hover{
+  text-decoration: none;
+  color: #000;
+}
+/* ---------end shape------ */
+
+
+.image:hover{
+  cursor: pointer;
+  /* transition: 2rem;
+  transition-duration: .5ms; */
+  transform: scale(1.1);
+  transition: transform .2s ease;
+  height: 350px;
+  width: 350px;
+}
+.eb{
+  color: #fff;
+  background-color: #d4d4d4;
+  font-size: 24px;
+  font-weight: lighter;
+  border: 6px solid #d4d4d4;
+  margin: 21px 15px;
+  text-align: center;
+  line-height: 1.2;
+}
+.pendants{
+  color: #fff;
+  background-color: #d4d4d4;
+  font-size: 24px;
+  font-weight: lighter;
+  border: 6px solid #d4d4d4;
+}
+.image1{
+  border-radius: 5px;
+  cursor: pointer;
+}
+.image1 :hover{
+  background-color: #000;
+}
+.fa-search{
+  font-size: 12px;
+  border: 1px solid #000;
+  padding: 5px 12px;
+}
+
+
+
+/*-------------------PRODUCTS---------------------------*/
+.styleid{
+  padding-top: 10PX;
+  margin-left: 10PX;
+}
+
+/*--------------carousel slider------------------------*/
+
+@media (max-width: 768px) {
+  .carousel-inner .carousel-item > div {
+      display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+      display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+  
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(33.333%);
+  }
+  
+  .carousel-inner .carousel-item-left.active, 
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-33.333%);
+  }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+transform: translateX(0);
+}
+
+/*------------end carousel------------------------*/
+.styleid{
+  color: red;
+}
+.fa-star{
+  margin-right: 2px;
+  padding-top: 15px;
+}
+.rating{
+  padding-left: 13px;
+  margin-right: 35px;
+  color: #000;
+}
+.price_label{
+  padding-top: 10px;
+    padding-left: 140px;
+}
+.img-fluid{
+  cursor: pointer;
+}
+/*-------------switch box----------------*/
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 68px;
+  height: 29px;
+}
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.divBasicAdvanceButton{
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border: 1px solid #000;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 23px;
+  left: 2px;
+  bottom: 2px;
+  background-color: #000;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(39px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.product-option-block .metal-label+span.round-circle{
+  border-radius: 5px;
+  border-color: #000;
+}
+.product-option-block .metal-label1{
+  cursor: pointer;
+}
+.white-metal{
+  background: linear-gradient(to bottom,#f4f4f4 0,#ccc 99%,#ccc 100%);
+}
+.yellow-metal{
+  background: linear-gradient(to bottom,#e6c17e 0,#c7a369 99%,#c7a369 100%);
+}
+.rose-gold-metal{
+  background: linear-gradient(to bottom,#e3b591 0,#c99d81 100%);
+}
+.round-circle{
+  width: 30px;
+  height: 30px;
+  line-height: 31px;
+ -webkit-border-radius: 30px;
+  display: inline-block;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 700;
+  text-indent: 0;
+  color: #000;
+  border: 1px solid transparent;
+}
+dl, ol, ul {
+  margin-left: 0;
+  padding: 0;
+  list-style: none;
+}
+::after, ::before {
+  box-sizing: border-box;
+}
+
+/*----------metal----------------*/
+.metal{
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-left: 10px;
+  font-weight: 12px;
+}
+/*----------end metal----------------*/
+
+/*------------stone-type------------*/
+.stone-type{
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-left: 10px;
+  font-weight: 12px;
+}
+.shape{
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-left: 10px;
+  font-weight: 12px;
+}
+.defaulter{
+  text-transform: uppercase;
+  color: white;
+  background-color: #000;
+  margin-left: 12px;
+  font-size: 15px;
+  padding: 5px 20px;
+  padding-top: 4px; 
+  border: 1px solid #000;
+  text-align: center;
+}
+.defaulter:hover{
+text-decoration: none;
+color: white;
+}
+.defaulter1{
+  text-transform: uppercase;
+  color: #000;
+  background-color: white;
+  margin-left: 12px;
+  font-size: 15px;
+  padding: 5px 20px;
+  padding-top: 4px; 
+  border: 1px solid #000;
+  text-align: center;
+}
+.defaulter1:hover{
+text-decoration: none;
+color: #000;
+}
+.fa-info{
+  padding-left: 7px;
+  text-transform: lowercase;
+}
+/*----------end--stone-type------------*/
+/*------------shape------------------*/
+.second{
+  text-transform: uppercase;
+  color:white;
+  background-color:#000;
+  margin-left: 12px;
+  font-size: 17px;
+  padding: 10px 15px;
+  padding-top: 4px; 
+  justify-content: center;
+border: 1px solid #000;
+}
+.second:hover{
+text-decoration: none;
+color: white;
+}
+/*------------shape------------------*/
+
+/*----------rangeslider---------------------*/
+.volume{
+  padding-left: 19px;
+}
+#volume{
+  margin-left: 19px;
+  width: 75%;
+  cursor: pointer;
+}
+/*----------rangeslider-end----------------*/
+/*-----------clarity---------------*/
+.clarity{
+  margin-left: 25px;
+  margin-top: 10px;
+
+}
+.first12{
+  text-decoration: none;
+  color: #000;
+  border: 1px solid #000;
+  padding: 10px 15px;
+  padding-top: 4px;
+  border-radius: 2PX;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.first12:hover{
+text-decoration: none;
+color: #000;
+}
+/*-----------clarity---------------*/
+/*--------ring-size----------------------*/
+.form-item{
+  margin-left: 12px;
+  margin-top: 10px;
+  cursor: pointer;
+  text-align: center;
+  padding-left: 15px;
+  border-radius: 1px; 
+}
+/*--------ring-size-end------------------*/
+
+/*--------less-choose-option-------------*/
+.less-option{
+  border: 2px solid #000;
+  margin-left: 15px;
+  padding: 2px 53px;
+  color:#000;
+  text-decoration: none;
+}
+.less-option:hover{
+  text-decoration: none;
+  color: white;
+  background-color: #000;
+}
+.choose{
+  border: 2px solid #000;
+  margin-left: 15px;
+  padding: 1px 30px;
+}
+.choose:hover{
+  background-color: #c99d81;
+}
+.reset{
+  border: 2px solid #000;
+  padding: 1px 40px;
+  color: #000;
+  background-color: white;
+}
+.reset:hover{
+color: white;
+background-color: #000;
+}
+.hr{
+  margin-top: 40px;
+}
+.horizontal{
+  margin-top: 40px;
+}
+/*--------less choose option-end---------*/
+
+
